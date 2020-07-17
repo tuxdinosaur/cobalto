@@ -1,2 +1,4 @@
 Repositorio de proyecto Cobalto.
-hmmmmm
+
+Entrada a la base de datos:
+    localhost/phpmyadmin/

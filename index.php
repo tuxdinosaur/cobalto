@@ -3,13 +3,19 @@
     if(isset($_GET['mensaje'])&&($_GET['mensaje']=='mensaje_error')){
         $error = "Su usuario o contraseña son incorrectos";
     }
+    if(isset($_GET['mensaje'])&&($_GET['mensaje']=='gracias')){
+        $error = "Gracias por utilizar COBALTO";){
+    }
+    if(isset($_GET['mensaje'])&&($_GET['mensaje']=='no_tiene_permiso')){
+		$error = "No tienes permiso para acceder a esta URL";
+	}
 ?>
 
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Acceso Privado</title>
+<title>Inicio de sesión</title>
 <link href="styles.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="intranet.js"></script>
 </head>

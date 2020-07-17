@@ -1,18 +1,20 @@
 <?php
 
-//recuperamos usuario mediante el método POST y lo filtramos para evitar códigos maliciosos
+//Recuperación de usuario mediante metodo POST y lo filtramos para evitar códigos maliciosos
 $usuario = $_POST['p_username'];
 $usuario = addslashes($usuario);
 $usuario = strip_tags($usuario);
 
-//recuperamos la contraseña mediante el método POST y lo filtramos para evitar códigos maliciosos
+//Recuperación de contraseña mediante el método POST y lo filtramos para evitar códigos maliciosos
 $contrasena = $_POST['p_password'];
 $contrasena = addslashes($contrasena);
 $contrasena = strip_tags($contrasena);
 
-//CONEXIÓN CON LA BASE DE DATOS
-
-
+/*CONEXIÓN CON BASE DE DATOS
+	...
+	Conexión
+	...
+*/
 
 //Comprobación manual que el usuario y la contraseña es correcta
 
