@@ -4,7 +4,7 @@
         $error = "Su usuario o contraseña son incorrectos";
     }
     if(isset($_GET['mensaje'])&&($_GET['mensaje']=='gracias')){
-        $error = "Gracias por utilizar COBALTO";){
+        $error = "Gracias por utilizar COBALTO";
     }
     if(isset($_GET['mensaje'])&&($_GET['mensaje']=='no_tiene_permiso')){
 		$error = "No tienes permiso para acceder a esta URL";
