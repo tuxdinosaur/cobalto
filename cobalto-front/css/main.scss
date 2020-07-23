@@ -1,0 +1,134 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar{
+  background-color: #656B9B;
+}
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+/* CONTAINER */
+.home {
+  // height: calc(100vh - 56px);
+  display: flex;
+  // margin-top: 32px;
+  // margin-bottom: 32px;
+}
+.home__section {
+  align-items: center;
+  // border: 1px solid red;
+  padding: 20px 0;
+}
+
+/* DESCRIPTION */
+.description-title {
+  color: #000000;
+  font-size: 24px;
+}
+.description-title--light {
+  font-weight: 300;
+}
+.description-title--bold {
+  font-weight: 700;
+  color: #656B9B;
+}
+.description-text {
+  color: #000000;
+  font-size: 16px;
+}
+
+/* LOG */
+.log__container {
+  background: #656B9B;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 20px;
+}
+.log__container--tabs {
+  justify-content: center;
+}
+.log__container--tabs > li {
+  padding: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: 5px solid #ffffff;
+  border-radius: 0;
+}
+.log__container--tabs .nav-link {
+  color: rgba(255, 255, 255,0.5);
+  border-bottom: 5px solid transparent;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  padding: 0;
+  padding-bottom: 5px;
+}
+.log__container--tabs .nav-link:hover {
+  color: rgba(255, 255, 255,1);
+}
+.tab-register__button {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-control {
+  border: none;
+  color: #fff;
+  background-color: #4f4d53;
+}
+.radio-options {
+  display: flex;
+}
+.radio--2 {
+  margin: 0;
+}
+
+@media only screen and (min-height: 600px) {
+  .home {
+    height: calc(100vh - 56px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home {
+    margin-top: 0;
+    margin-bottom: 0;
+    // min-height: 600px;
+  }
+  .description-title {
+    font-size: 32px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .description-title {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .description-title {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .tab__text {
+    display: none;
+  }
+}
