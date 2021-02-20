@@ -9,3 +9,5 @@ Todo lo anterior con el objetivo de consolidarnos como la mejor plataforma de ed
 Entrada a la base de datos:
 localhost/phpmyadmin/
 ```
+
+Besame tux UwU
