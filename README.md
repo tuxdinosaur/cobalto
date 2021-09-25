@@ -12,3 +12,5 @@ localhost/phpmyadmin/
 
 Besame tux UwU
 enomamen jajaja
+camara con ese besame
+no subieron las imagnes, solo atrasan mi trabajo 
